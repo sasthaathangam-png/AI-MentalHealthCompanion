@@ -1,0 +1,35 @@
+If using Python (Flask/Django) backend
+/src
+│
+├── app.py                  → Main entry point (starts the server)
+├── chatbot.py               → Core chatbot logic (handles conversation flow)
+├── nlp_model.py              → Sentiment analysis / emotion detection logic
+├── crisis_detector.py         → Detects distress keywords, triggers helpline suggestion
+├── mood_tracker.py             → Logic for saving/retrieving mood logs
+├── database.py                  → DB connection & queries (MongoDB/PostgreSQL/Firebase)
+├── routes.py                     → API endpoints (if using Flask, e.g. /chat, /mood)
+├── config.py                      → Loads environment variables/settings
+└── utils.py                        → Helper functions (formatting, logging, etc.)
+
+If you have a frontend (React)
+/frontend/src
+│
+├── App.js                  → Root component
+├── components/
+│   ├── ChatWindow.js         → Chat UI
+│   ├── MoodTracker.js         → Mood logging UI
+│   ├── Dashboard.js            → Insights/trend charts
+│   └── Navbar.js                → Navigation bar
+├── api/
+│   └── api.js                     → Functions to call your backend endpoints
+└── styles/
+    └── App.css                      → Styling
+
+    If it's a simple single-script project (just Python, no framework)
+    /src
+├── main.py          → Entry point, runs the chatbot
+├── chatbot.py         → Chat logic
+└── data/
+    └── sample_conversations.json  → Dummy training/testing data
+
+    
