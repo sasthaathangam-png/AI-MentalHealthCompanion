@@ -108,7 +108,7 @@ API key for your chosen LLM provider (OpenAI, Claude, etc.)
 Installation
 
 bash# Clone the repository
-git clone https://github.com/yourusername/mindmate.git
+git clone https://github.com/sasthaathangam-png/AI-MentalHealthCompanion.git
 cd mindmate
 
 # Install backend dependencies
